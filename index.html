@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ertugrul HABERDAR - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Ertugrul HABERDAR
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          ertugrulhaberdarvd@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +41762038535
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#Skills">Skills</a>
+          <a class="topmenu" href="#Projects">Projects</a>
+          <a class="topmenu" href="#Recommendations">Recommendations</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://media.licdn.com/dms/image/C4D03AQGwsJhUVCwwiA/profile-displayphoto-shrink_400_400/0/1660499392593?e=1709769600&v=beta&t=VMIjYO_5ozTRLjqC97rNeAStvXYwx3LC8CrkDTiqPrE" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Ertugrul HABERDAR! <img src="https://icons.iconarchive.com/icons/microsoft/fluentui-emoji-3d/128/Waving-Hand-3d-Light-icon.png" width="60px"/>
+          </h1>
+          <p>
+            I worked as an electronician in Turkey for 12 years. But I want to become an informatician to work in the field I love. 
+            For this, I received training on HTML, CSS, JS and Python. 
+            I did an internship in a company where I specialized in VBA and advanced Excel.
+            At the same time, I continue my French education in Switzerland, where I have just arrived. 
+            I completed the courses on this subject and received a certificate at B2 level.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+        </div>  
+
+        <div class="skill">
+          <img src="https://w7.pngwing.com/pngs/696/424/png-transparent-logo-css-css3-thumbnail.png"/>
+          <h6>CSS</h6>
+        </div>  
+
+        <div class="skill">
+            <img src="html_finalprojimages/js.jpeg"/>
+            <h6>JavaScript</h6>
+        </div>  
+
+        <div class="skill">
+            <img src="https://pnglib.nyc3.cdn.digitaloceanspaces.com/uploads/2020/01/python_5e18e51de317b.png"/>
+            <h6>Python</h6>
+        </div>  
+
+        <div class="skill">
+            <img src="https://www.bluenovation.co.uk/wp-content/uploads/2017/02/VBA-bubble-bold.png"/>
+            <h6>VBA</h6>
+        </div>
+
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Program development </h3>
+            <ul>
+              <li>Developed on automatic label production (at various stages of production) with advanced Excel and VBA</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>P-TOUCH parameter development</h3>
+            <ul>
+              <li>Developed labels on p-touch editor software, at various levels and by adding barcodes</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Website Design</h3>
+            <ul>
+              <li>Created many website designs, during the Swisscom web course.</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Monsieur Haberdar s'est montré discret mais très efficace, et il s'est vite intégré dans l'équipe Supply Chain. 
+          Poli et agréable au quotidien, il était demandeur d'apprendre et de se former...
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Motivé et persévérant, 
+          il a tenu à être immergé dans une équipe francophone afin d'améliorer son niveau de français au cours du projet.
+          Il a écouté avec beaucoup d'attention les attentes, les instructions et les feedbacks, 
+          en essayant de comprendre de dépasser la barrière de la langue...
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Le projet a été concrètement et parfaitement réalisé selon les attentes. 
+          Nous avons reconnu son très haut niveau d'expertise et de maitrise d'Excel et de VBA, 
+          qui lui a permis de remplir sa mission avec succès... 
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3> Your recommendation has been added successfully. Thanks for leaving a recommendation...</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
